@@ -34,14 +34,14 @@ function generateNewColor() {
 
 function setColor1() {
 	var newColor = generateNewColor();
-	color1.setAttribute("value", newColor);
+	color1.value = newColor;
 	setGradient()
 
 }
 
 function setColor2() {
 	var newColor = generateNewColor();
-	color2.setAttribute("value", newColor);
+	color2.value = newColor;
 	setGradient()
 
 }
